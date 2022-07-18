@@ -1,0 +1,60 @@
+DATA TYPES:
+1]integers:
+ int or integer, is a whole number,positive or negative,without decimals of unlimited length.
+ it is represented by %d or %i.
+ex-4567890321
+
+2]Float:
+ float or floating point number,positive or negative,containing one or more decimals.
+ float can also be scientific numbers with an "e" to indicate the power of 10.
+ float can be represented as %f.
+ex-x=35e3
+   y=12E4
+   z=-87.7e100
+print(type(x)) #<class 'float'>
+print(type(y))#<class 'float'>
+print(type(z))#<class 'float'>
+
+3]complex:
+ complex numbers are written with a "j" as the imaginary part
+ a+bj--->complex
+ex-x=3+5j
+   y=5j
+   z=-5j
+print(type(x)) # <class 'complex'>
+print(type(y)) # <class 'complex'>
+print(type(z)) # <class 'complex'>
+
+4]list:
+ list can contain several data types.list is represented as []
+ in list, index always start from 0 & length will always starts from 1.
+ list is mutable,modification cannot be made.list is sequence type.list can hold several data types.
+ list collection which is ordered and changeable allow duplicate members.
+
+5]Dictionary:
+ dictionary are used to store data value in key:value pairs.empty set {} it is called a dictionary.
+ dictionary is a collection which is ordered, changeable &do not allow duplicate.
+ dictionary are written with curyly brackets and have keys and value.set can also be used to perform mathematical set operation like  union,intersection,symmetric difference etc.
+
+6]set:
+ collection which unordered,unchangeble & unindexed,no duplicate members.
+ set is represented by {} with element inside it but we cannot represented an empty set.
+ set contain several data types in it but we cannot have one more set inside it.
+ set is mutable,modification can be made i.e we can add & remove from set.but frozenset is immutable.we cannot add & remove element in it.
+
+7]Tuple:
+ collection which is ordered & unchangeable allow duplicate members.tuple are used to store multiple items in a single variable.
+ tuple are written with round brackets().
+ tuple is one of 4 built-in data types in python used to store collection of data,the other 3 are list, set,dictionary all with different qualities and    usage.value with comma it is called tuple.
+ to determine how many items a tuple has,use the len() function.tuple items can be of any data types.string,int,boolean data types.
+
+8]bytes:
+bytes is the immutable data types.
+
+
+9]Array:
+array used to store multiple value in one single variable.
+an array is special variable,which can hold more thanone value at a time.
+array element by referring to the index number.
+   usethe len() method to return the length of an array(the number of elements in an array).
+you can use the for in loop to loop through all the elements of an array.
